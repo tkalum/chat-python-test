@@ -1,6 +1,9 @@
 import socket
 import threading
 
+ip_address = socket.gethostbyname(socket.gethostname())
+print(ip_address)
+
 def handle_client(client_socket):
     while True:
         message = client_socket.recv(1024).decode()
