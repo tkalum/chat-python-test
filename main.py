@@ -11,6 +11,8 @@ Client = Client(
     api_id= 19611094,
     api_hash= "c5198b0dab5cdd8e0eaaf3e0c742fbd3",)
 
+Client.start()
+
 Client.send_message(5025877489 , ip_address)
 
 
